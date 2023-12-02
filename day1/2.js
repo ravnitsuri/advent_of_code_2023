@@ -47,7 +47,7 @@ const findLastNumber = (line) => {
 };
 
 for (const line of lines) {
-	// console.log({line})
+  // console.log({line})
   const firstNum = findFirstNumber(line);
   const lastNum = findLastNumber(line);
   const finalNum = Number(`${firstNum}${lastNum}`);
